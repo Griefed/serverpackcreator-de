@@ -1,6 +1,6 @@
 FROM griefed/gitlab-ci-cd:2.2.9 AS builder
 
-ARG BRANCH_OR_TAG=main
+ARG BRANCH_OR_TAG=master
 ARG HOSTER=git.griefed.de
 
 RUN \
@@ -8,7 +8,7 @@ RUN \
     -b $BRANCH_OR_TAG \
       https://$HOSTER/Griefed/serverpackcreator-de.git \
       /tmp/serverpackcreator.de && \
-  cd /tmp/griefed.de && \
+  cd /tmp/serverpackcreator.de && \
   npm install && \
   quasar build
 
