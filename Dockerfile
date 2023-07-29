@@ -20,9 +20,9 @@ RUN \
   rm -rf \
     /config/www && \
   echo "**** Cleanup ****" && \
-    rm -rf \
-      /root/.cache \
-      /tmp/*
+  rm -rf \
+    /root/.cache \
+    /tmp/*
 
 COPY --from=builder /tmp/serverpackcreator.de/dist/spa/ /config/www
 
