@@ -300,10 +300,14 @@
             <p>
                 And here we are.
             </p>
+            <span>
+              <q-chip color="secondary" size="xl" text-color="white">
+                <q-avatar color="primary" icon="mdi-github"/>
+                <b>GitHub Downloads: {{ downloads }}</b>
+              </q-chip>
+
+            </span>
             <span class="row flex flex-center" style="margin-top: 45px;">
-              <img alt="GitHub all releases"
-                   src="https://img.shields.io/github/downloads/griefed/serverpackcreator/total?color=c0ffee&label=GitHub%20Downloads&labelColor=325358&logo=GitHub&style=for-the-badge">
-              <q-separator inset vertical color="accent" spaced/>
               <img alt="GitHub Repo stars"
                    src="https://img.shields.io/github/stars/griefed/serverpackcreator?color=c0ffee&label=GitHub%20Stars&labelColor=325358&logo=GitHub&style=for-the-badge">
               <q-separator inset vertical color="accent" spaced/>
@@ -723,6 +727,8 @@
 <script>
 import {getCssVar} from "quasar"
 import {QFlashcard, QFlashcardSection} from '@quasar/quasar-ui-qflashcard'
+import { GithubStats } from 'github-release-stats';
+import {ref} from 'vue';
 
 export default {
   name: "ServerPackCreator",
@@ -755,7 +761,11 @@ export default {
     }
   },
   setup() {
-    return {}
+    const gh = new GithubStats('Griefed', 'ServerPackCreator');
+    return {
+      gh,
+      downloads: ref(0)
+    }
   },
   computed: {
     styleTop() {
@@ -792,6 +802,14 @@ export default {
         this['about_heading_' + index] = [];
       }, 1000);
     }
+  },
+  mounted() {
+    this.gh.getTotalDownloads().then(count => {
+      this.downloads = count
+      console.log('Total downloads: ' + count);
+    }).catch(error => {
+      console.error(error.message);
+    });
   }
 }
 </script>
