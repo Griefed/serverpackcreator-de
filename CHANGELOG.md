@@ -1,3 +1,10 @@
+## [1.0.3](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.0.2...1.0.3) (2023-10-16)
+
+
+### 🛠 Fixes
+
+* Hopefully fix release pipeline for Docker ([a09ac69](https://git.griefed.de/Griefed/serverpackcreator-de/commit/a09ac69b6f40f5ff2e4d70353ca297e9f8b41e40))
+
 ## [1.0.2](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.0.1...1.0.2) (2023-10-16)
 
 
