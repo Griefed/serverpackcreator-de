@@ -1,3 +1,10 @@
+## [1.0.4](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.0.3...1.0.4) (2023-10-17)
+
+
+### 💈 Style
+
+* Display loading animation until GitHub downloads were counted ([78cc33c](https://git.griefed.de/Griefed/serverpackcreator-de/commit/78cc33c5fcf184ac7f2da8b1fa74713a32077580))
+
 ## [1.0.3](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.0.2...1.0.3) (2023-10-16)
 
 
