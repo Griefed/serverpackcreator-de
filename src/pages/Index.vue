@@ -303,9 +303,19 @@
             <span>
               <q-chip color="secondary" size="xl" text-color="white">
                 <q-avatar color="primary" icon="mdi-github"/>
-                <b>GitHub Downloads: {{ downloads }}</b>
+                <b>GitHub Downloads:&nbsp;</b>
+                <b v-if="downloads === 0">
+                  <q-circular-progress
+                    indeterminate
+                    rounded
+                    color="lime"
+                    class="q-ma-md"
+                  />
+                </b>
+                <b v-else>
+                  {{ downloads }}
+                </b>
               </q-chip>
-
             </span>
             <span class="row flex flex-center" style="margin-top: 45px;">
               <img alt="GitHub Repo stars"
