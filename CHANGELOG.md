@@ -1,3 +1,22 @@
+## [1.0.3](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.0.2...1.0.3) (2023-10-16)
+
+
+### 🛠 Fixes
+
+* Hopefully fix release pipeline for Docker ([a09ac69](https://git.griefed.de/Griefed/serverpackcreator-de/commit/a09ac69b6f40f5ff2e4d70353ca297e9f8b41e40))
+
+## [1.0.2](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.0.1...1.0.2) (2023-10-16)
+
+
+### 🦊 CI/CD
+
+* Use docker proxy to reduce traffic ([572d982](https://git.griefed.de/Griefed/serverpackcreator-de/commit/572d9826b797582ca26e38725f3f31bb14008442))
+
+
+### 🛠 Fixes
+
+* Properly display download count ([6f46046](https://git.griefed.de/Griefed/serverpackcreator-de/commit/6f46046d950468492763955a339962cbdce7a252))
+
 ## [1.0.1](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.0.0...1.0.1) (2023-05-01)
 
 
