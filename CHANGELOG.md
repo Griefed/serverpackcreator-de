@@ -1,3 +1,15 @@
+## [1.0.5](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.0.4...1.0.5) (2023-11-04)
+
+
+### 💈 Style
+
+* Replace Fantasy Minecraft logo. Thanks to [@kyber-6](https://git.griefed.de/kyber-6) for the info! ([4ff2bb0](https://git.griefed.de/Griefed/serverpackcreator-de/commit/4ff2bb0220b6d095475262ce9f3dacfa432aa692))
+
+
+### 🦊 CI/CD
+
+* Remove GitHub release-related workflows ([707b33c](https://git.griefed.de/Griefed/serverpackcreator-de/commit/707b33c8267b50095fb087ae723c880341fdb638))
+
 ## [1.0.4](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.0.3...1.0.4) (2023-10-17)
 
 
