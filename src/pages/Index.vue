@@ -274,7 +274,7 @@
     <div class="row" style="background-color: #00000088 !important;">
       <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
         <h5 class="text-center text-white">
-          <a href="https://github.com/Griefed/ServerPackCreator" rel="noreferrer noopener" target="_blank">
+          <a href="https://github.com/Griefed/ServerPackCreator" rel="noopener" target="_blank">
             <q-img src="~assets/serverpackcreator.webp" alt=""/>
           </a>
           <br><br>
@@ -322,11 +322,8 @@
                    src="https://img.shields.io/github/stars/griefed/serverpackcreator?color=c0ffee&label=GitHub%20Stars&labelColor=325358&logo=GitHub&style=for-the-badge">
               <q-separator inset vertical color="accent" spaced/>
               <img alt="Docker Pulls"
-                   src="https://img.shields.io/docker/pulls/griefed/serverpackcreator?color=c0ffee&label=Docker%20Downloads&labelColor=325358&logo=Docker&style=for-the-badge">
-              <q-separator inset vertical color="accent" spaced/>
-              <img alt="Docker Stars"
-                   src="https://img.shields.io/docker/stars/griefed/serverpackcreator?color=c0ffee&label=Docker%20Stars&labelColor=325358&logo=Docker&style=for-the-badge">
-            </span>
+                   src="https://img.shields.io/docker/pulls/griefed/serverpackcreator?color=c0ffee&label=Docker%20Pulls&labelColor=325358&logo=Docker&style=for-the-badge">
+              </span>
           </span>
         </h5>
       </div>
@@ -346,9 +343,10 @@
             </q-flashcard-section>
             <q-card @mouseover="hoverOver(1)" @mouseout="hoverOutTimeout(1)" style="border: none;"
                     class="my-card text-center box-shadow" flat bordered>
-              <a href="https://www.ej-technologies.com/products/jprofiler/overview.html" rel="noreferrer noopener"
+              <a href="https://www.ej-technologies.com/products/jprofiler/overview.html" rel="noopener"
                  target="_blank">
-                <q-img src="~assets/jprofiler.webp" alt=""/>
+                <q-img src="~assets/jprofiler.webp" alt="Java profiler"/>
+                <q-img src="~assets/jprofiler_banner.webp" alt="Java profiler"/>
               </a>
 
               <q-card-section>
@@ -364,7 +362,42 @@
                   </strong></code>
                 </div>
                 <div class="text-caption text-grey-6">
+                  © Copyright 2001-{{ year }} ej-technologies GmbH<br>
                   JProfiler and ej-technologies logos property of ej-technologies GmbH
+                </div>
+              </q-card-section>
+            </q-card>
+          </q-flashcard>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sx-12 col-sm-12">
+          <q-flashcard :no-hover="hover" class="my-card text-center box-shadow" flat bordered>
+            <q-flashcard-section transition="nudge-in" :active="active">
+              <!--suppress CheckImageSize -->
+              <img src="~assets/serverpackcreator/tile_blurred.webp" width=400 height=700 alt="">
+            </q-flashcard-section>
+            <q-card @mouseover="hoverOver(1)" @mouseout="hoverOutTimeout(1)" style="border: none;"
+                    class="my-card text-center box-shadow" flat bordered>
+              <a href="https://www.ej-technologies.com/products/install4j/overview.html" rel="noopener"
+                 target="_blank">
+                <q-img src="~assets/install4j_icon.webp" alt="multi-platform installer builder"/>
+                <q-img src="~assets/install4j.webp" alt="multi-platform installer builder"/>
+              </a>
+
+              <q-card-section>
+                <div class="text-overline text-orange-9">EJ TECHNOLOGIES</div>
+                <div :class="about_heading_1" :style="'color: ' + about_heading_color_1"
+                     class="about_heading_1 text-h6 q-mt-sm q-mb-xs">INSTALL4J
+                </div>
+                <div :class="about_heading_1" :style="'color: ' + about_heading_color_1"
+                     class="about_heading_1 q-mt-sm q-mb-xs">
+                  <code><strong>
+                    install4j is a powerful multi-platform Java installer builder that generates native installers
+                    and application launchers for Java applications.
+                  </strong></code>
+                </div>
+                <div class="text-caption text-grey-6">
+                  © Copyright 2001-{{ year }} ej-technologies GmbH<br>
+                  install4j and ej-technologies logos property of ej-technologies GmbH
                 </div>
               </q-card-section>
             </q-card>
@@ -379,7 +412,7 @@
             <q-card @mouseover="hoverOver(2)" @mouseout="hoverOutTimeout(2)"
                     :style="'color: ' + about_heading_color_2" style="border: none;"
                     class="my-card text-center box-shadow" flat bordered>
-              <a href="https://www.jetbrains.com/idea/" rel="noreferrer noopener" target="_blank">
+              <a href="https://www.jetbrains.com/idea/" rel="noopener" target="_blank">
                 <q-img src="~assets/idea.webp" alt=""/>
               </a>
 
@@ -396,7 +429,7 @@
                   </strong></code>
                 </div>
                 <div class="text-caption text-grey-6">
-                  IntelliJ IDEA and WebStorm logos property of JetBrains s.r.o.
+                  Copyright © {{ year }} JetBrains s.r.o.<br>IntelliJ IDEA and the IntelliJ IDEA logo are registered trademarks of JetBrains s.r.o.
                 </div>
               </q-card-section>
             </q-card>
@@ -410,7 +443,7 @@
             </q-flashcard-section>
             <q-card @mouseover="hoverOver(3)" @mouseout="hoverOutTimeout(3)" style="border: none;"
                     class="my-card text-center box-shadow" flat bordered>
-              <a href="https://www.jetbrains.com/webstorm/" rel="noreferrer noopener" target="_blank">
+              <a href="https://www.jetbrains.com/webstorm/" rel="noopener" target="_blank">
                 <q-img src="~assets/webstorm.webp" alt=""/>
               </a>
               <q-card-section>
@@ -427,7 +460,7 @@
                   </strong></code>
                 </div>
                 <div class="text-caption text-grey-6">
-                  IntelliJ IDEA and WebStorm logos property of JetBrains s.r.o.
+                  Copyright © {{ year }} JetBrains s.r.o.<br>WebStorm and the WebStorm logo are registered trademarks of JetBrains s.r.o.
                 </div>
               </q-card-section>
             </q-card>
@@ -531,13 +564,13 @@
           <div class="q-mt-md text-h6 text-center">
             <div>
               <a style="color: #ed6b00" href="https://www.curseforge.com/minecraft/modpacks/world-of-dragons"
-                 rel="noreferrer noopener" target="_blank">
+                 rel="noopener" target="_blank">
                 <img :style="'margin-top:100px;border-radius:5px;border: 4px solid ' + primaryColour"
                      src="~assets/serverpackcreator/testimonials/kreezxil.webp" width=150 height=150 alt="">
               </a>
               <br>
               <a style="color: #ed6b00" href="https://www.curseforge.com/minecraft/modpacks/world-of-dragons"
-                 rel="noreferrer noopener" target="_blank">
+                 rel="noopener" target="_blank">
                 World of Dragons
               </a>
               <br>
@@ -545,9 +578,9 @@
             </div>
             <div>
               "Before ServerPackCreator I would use my own well-documented manual method to create server packs.<br>
-              See <a href="https://kreezcraft.com/uupt" rel="noreferrer noopener" target="_blank">
+              See <a href="https://kreezcraft.com/uupt" rel="noopener" target="_blank">
               Forge Server from Forge Pack</a> and also
-              <a href="https://kreezcraft.com/n0cp" rel="noreferrer noopener" target="_blank">
+              <a href="https://kreezcraft.com/n0cp" rel="noopener" target="_blank">
                 Fabric Server from a Fabric Pack
               </a>.<br>
               The two methods are very similar but time consuming. ServerPackCreator (SPC) allows you to do all of
@@ -561,13 +594,13 @@
           <div class="q-mt-md text-h6 text-center">
             <div>
               <a style="color: #ed6b00" href="https://www.curseforge.com/minecraft/modpacks/fantasy-minecraft-fabric"
-                 rel="noreferrer noopener" target="_blank">
+                 rel="noopener" target="_blank">
                 <img :style="'margin-top:100px;border-radius:5px;border: 4px solid ' + primaryColour"
                      src="~assets/serverpackcreator/testimonials/fantasy_minecraft.webp" width=150 height=150 alt="">
               </a>
               <br>
               <a style="color: #ed6b00" href="https://www.curseforge.com/minecraft/modpacks/fantasy-minecraft-fabric"
-                 rel="noreferrer noopener" target="_blank">
+                 rel="noopener" target="_blank">
                 Fantasy Minecraft
               </a>
               <br>
@@ -584,13 +617,13 @@
           <div class="q-mt-md text-h6 text-center">
             <div>
               <a style="color: #ed6b00" href="https://www.curseforge.com/minecraft/modpacks/modded-oneblock-skyblock"
-                 rel="noreferrer noopener" target="_blank">
+                 rel="noopener" target="_blank">
                 <img :style="'margin-top:100px;border-radius:5px;border: 4px solid ' + primaryColour"
                      src="~assets/serverpackcreator/testimonials/darkly.webp" width=150 height=150 alt="">
               </a>
               <br>
               <a style="color: #ed6b00" href="https://www.curseforge.com/minecraft/modpacks/modded-oneblock-skyblock"
-                 rel="noreferrer noopener" target="_blank">
+                 rel="noopener" target="_blank">
                 Modded Oneblock Skyblock
               </a>
               <br>
@@ -622,7 +655,7 @@
                 <q-item-label class="text-blue-grey-10">Want to contribute to ServerPackCreator? Check out the <br>
                   <strong>
                     <a href="https://github.com/Griefed/ServerPackCreator/blob/main/CONTRIBUTING.md"
-                       rel="noreferrer noopener" target="_blank">
+                       rel="noopener" target="_blank">
                       Contributing-Guidelines
                     </a>
                   </strong>
@@ -639,7 +672,7 @@
                 <q-item-label class="text-h6 text-grey-10 text-uppercase">Support</q-item-label>
                 <q-item-label class="text-blue-grey-10">Encountered a bug in ServerPackCreator?<br>
                   <strong>
-                    <a href="https://github.com/Griefed/ServerPackCreator/issues" rel="noreferrer noopener"
+                    <a href="https://github.com/Griefed/ServerPackCreator/issues" rel="noopener"
                        target="_blank">
                       Report issues on GitHub.
                     </a>
@@ -658,7 +691,7 @@
                 <q-item-label class="text-blue-grey-10">Need help or details about ServerPackCreators features?<br>
                   <strong>
                     <a href="https://wiki.griefed.de/en/Documentation/ServerPackCreator/ServerPackCreator-Help"
-                       rel="noreferrer noopener" target="_blank">
+                       rel="noopener" target="_blank">
                       Check out the official Wiki.
                     </a>
                   </strong>
@@ -677,7 +710,7 @@
                 <q-item-label class="text-h6 text-grey-10 text-uppercase">Sources</q-item-label>
                 <q-item-label class="text-blue-grey-10">Interested in the source code of ServerPackCreator?<br>
                   <strong>
-                    <a href="https://github.com/Griefed/ServerPackCreator" rel="noreferrer noopener" target="_blank">
+                    <a href="https://github.com/Griefed/ServerPackCreator" rel="noopener" target="_blank">
                       See the publicly available GitHub-Repository.
                     </a>
                   </strong>
@@ -695,7 +728,7 @@
                 <q-item-label class="text-blue-grey-10">Want to talk to other users of ServerPackCreator, or the
                   team?<br>
                   <strong>
-                    <a href="https://discord.griefed.de/" rel="noreferrer noopener" target="_blank">
+                    <a href="https://discord.griefed.de/" rel="noopener" target="_blank">
                       Join the Discord server!
                     </a>
                   </strong>
@@ -713,7 +746,7 @@
                 <q-item-label class="text-blue-grey-10">I occasionally write blog-posts, sometimes
                   Minecraft-related.<br>
                   <strong>
-                    <a href="https://blog.griefed.de/" rel="noreferrer noopener" target="_blank">
+                    <a href="https://blog.griefed.de/" rel="noopener" target="_blank">
                       Check out the blog.
                     </a>
                   </strong>
@@ -724,9 +757,9 @@
         </div>
       </div>
       <div class="text-center">
-        The <a href="https://github.com/mayank091193/vue-quasar-company-profile-website" rel="noreferrer noopener"
+        The <a href="https://github.com/mayank091193/vue-quasar-company-profile-website" rel="noopener"
                target="_blank">vue-quasar-company-profile-website</a>-template,
-        by <a href="https://github.com/mayank091193" rel="noreferrer noopener" target="_blank">mayank091193</a>, was
+        by <a href="https://github.com/mayank091193" rel="noopener" target="_blank">mayank091193</a>, was
         used in the creation of the
         ServerPackCreator-website.
       </div>
@@ -772,7 +805,9 @@ export default {
   },
   setup() {
     const gh = new GithubStats('Griefed', 'ServerPackCreator');
+    let year = new Date().getFullYear();
     return {
+      year,
       gh,
       downloads: ref(0)
     }
