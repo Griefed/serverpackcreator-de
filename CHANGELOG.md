@@ -1,3 +1,5 @@
+## [1.1.0](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.0.5...1.1.0) (2024-02-08)
+
 ## [1.0.5](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.0.4...1.0.5) (2023-11-04)
 
 
