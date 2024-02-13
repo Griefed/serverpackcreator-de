@@ -690,9 +690,9 @@
                 <q-item-label class="text-h6 text-grey-10 text-uppercase">Wiki</q-item-label>
                 <q-item-label class="text-blue-grey-10">Need help or details about ServerPackCreators features?<br>
                   <strong>
-                    <a href="https://wiki.griefed.de/en/Documentation/ServerPackCreator/ServerPackCreator-Help"
+                    <a href="https://help.serverpackcreator.de/help-topic.html"
                        rel="noopener" target="_blank">
-                      Check out the official Wiki.
+                      Check out the official Help-Website.
                     </a>
                   </strong>
                 </q-item-label>
