@@ -1,3 +1,10 @@
+## [1.1.1](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.1.0...1.1.1) (2024-02-13)
+
+
+### 🛠 Fixes
+
+* Replace wiki link with new help-page ([ccdb3d1](https://git.griefed.de/Griefed/serverpackcreator-de/commit/ccdb3d143d490b4644d118f371203ccb436f1233))
+
 ## [1.1.0](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.0.5...1.1.0) (2024-02-08)
 
 ## [1.0.5](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.0.4...1.0.5) (2023-11-04)
