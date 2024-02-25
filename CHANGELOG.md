@@ -1,3 +1,10 @@
+## [1.1.2](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.1.1...1.1.2) (2024-02-25)
+
+
+### 💈 Style
+
+* Add webservice images and block about SPC being free ([623da19](https://git.griefed.de/Griefed/serverpackcreator-de/commit/623da19d5971b8a0b3c2cb1197051a063b6d5557))
+
 ## [1.1.1](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.1.0...1.1.1) (2024-02-13)
 
 
