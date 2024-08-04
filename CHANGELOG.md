@@ -1,3 +1,10 @@
+## [1.1.3](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.1.2...1.1.3) (2024-08-04)
+
+
+### 💈 Style
+
+* Update GUI screenshots ([8943c25](https://git.griefed.de/Griefed/serverpackcreator-de/commit/8943c256d0432951ead4310881ab4876caba7d35))
+
 ## [1.1.2](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.1.1...1.1.2) (2024-02-25)
 
 
