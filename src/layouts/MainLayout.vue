@@ -23,6 +23,7 @@
 
     <q-footer class="footer shadow-5" elevated height-hint="50">
       <q-toolbar>
+        <q-space/>
         <q-item
           v-ripple
           clickable
@@ -32,7 +33,7 @@
             <b>Site Notice & About</b>
           </q-item-section>
         </q-item>
-
+        <q-space/>
         <q-item
           v-ripple
           clickable
@@ -42,7 +43,7 @@
             <b>Privacy</b>
           </q-item-section>
         </q-item>
-        <q-toolbar-title></q-toolbar-title>
+        <q-space/>
         Copyright © {{ year }} Griefed.de
       </q-toolbar>
     </q-footer>

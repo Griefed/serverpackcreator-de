@@ -331,10 +331,17 @@
 
               If you find ServerPackCreator behind a paywall or otherwise monetized, then do not pay any money!
             </span>
+            <span class="row flex flex-center" style="margin-top: 20px;">
+              Speaking of money! *insert Kappa-face here*
+            </span>
+            <span class="row flex flex-center" style="margin-top: 20px;">
+              <a href='https://ko-fi.com/X7X31GM8DG' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+            </span>
           </span>
         </h5>
       </div>
     </div>
+
     <div class="row text-center flex flex-center" style="background-color: #00000088 !important;">
       <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
         <h5 class="text-center text-grey-4">
