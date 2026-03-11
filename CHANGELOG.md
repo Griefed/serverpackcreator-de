@@ -1,3 +1,9 @@
+## [1.2.0](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.1.3...1.2.0) (2026-03-11)
+
+### 🦊 CI/CD
+
+* Bump gitlab-image ([c0cc843](https://git.griefed.de/Griefed/serverpackcreator-de/commit/c0cc8434830c78c4a8307a7342e4d7f7c445a271))
+
 ## [1.1.3](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.1.2...1.1.3) (2024-08-04)
 
 
