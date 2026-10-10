@@ -1,16 +1,18 @@
 FROM griefed/gitlab-ci-cd:2.8.0 AS builder
 
-ARG BRANCH_OR_TAG=master
-ARG HOSTER=git.griefed.de
+WORKDIR /tmp/serverpackcreator.de
 
-RUN \
-  git clone \
-    -b $BRANCH_OR_TAG \
-      https://$HOSTER/Griefed/serverpackcreator-de.git \
-      /tmp/serverpackcreator.de && \
-  cd /tmp/serverpackcreator.de && \
-  npm install && \
-  quasar build
+# The sources are taken from the build context instead of being cloned back out
+# of the forge. The clone was a GitLab-era workaround: it built whatever the
+# remote branch happened to point at rather than the commit under test, and it
+# only worked for a branch that was already pushed and anonymously readable.
+# `.dockerignore` keeps the host's node_modules, a stale dist and the CI
+# definitions out of the context.
+COPY package.json package-lock.json ./
+RUN npm install
+
+COPY . .
+RUN quasar build
 
 FROM ghcr.io/linuxserver/nginx:1.22.1
 
