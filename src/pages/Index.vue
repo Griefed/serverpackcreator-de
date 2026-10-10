@@ -653,6 +653,28 @@
             </div>
           </div>
         </q-carousel-slide>
+        <q-carousel-slide class="column flex-center" name="4">
+          <div class="q-mt-md text-h6 text-center">
+            <div>
+              <a style="color: #ed6b00" href="https://www.curseforge.com/minecraft/modpacks/monumental-experience"
+                 rel="noopener" target="_blank">
+                <img :style="'margin-top:100px;border-radius:5px;border: 4px solid ' + primaryColour"
+                     src="~assets/serverpackcreator/testimonials/monumental-experience.webp" width=150 height=150 alt="">
+              </a>
+              <br>
+              <a style="color: #ed6b00" href="https://www.curseforge.com/minecraft/modpacks/monumental-experience"
+                 rel="noopener" target="_blank">
+                Monumental Experience
+              </a>
+              <br>
+              <span class="text-overline">by ModernGamingWorld</span>
+            </div>
+            <br>
+            <div>
+              "ServerPackCreator has made the process of creating server files much easier and simple for my modpacks. Without it. Creating server packs would be a huge pain to do."
+            </div>
+          </div>
+        </q-carousel-slide>
       </q-carousel>
     </div>
     <div style="background: #f7f7f7">
