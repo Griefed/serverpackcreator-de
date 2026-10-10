@@ -1,3 +1,15 @@
+## [1.3.0](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.2.0...1.3.0) (2026-10-10)
+
+### 🦊 CI/CD
+
+* Migrate from GitLab CI to Forgejo Actions ([c7fa426](https://git.griefed.de/Griefed/serverpackcreator-de/commit/c7fa426efa9af82a7f75e71c83f6eaefec89b3a3))
+* Modernize the Renovate configuration ([eeadbf5](https://git.griefed.de/Griefed/serverpackcreator-de/commit/eeadbf55c699ceb83d6e0a6c9a6fd2f2ef865f67))
+* Rebuild the GitHub Pages fallback workflow ([3d1f10a](https://git.griefed.de/Griefed/serverpackcreator-de/commit/3d1f10adff94fffa1995aa0183972cf45f020179))
+
+### 🚀 Features
+
+* Add testimonial for @ModernGamingWorld Monumental Experience ([194d011](https://git.griefed.de/Griefed/serverpackcreator-de/commit/194d0111d0751c02578e6b1805cf803980219e6c))
+
 ## [1.2.0](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.1.3...1.2.0) (2026-03-11)
 
 ### 🦊 CI/CD
