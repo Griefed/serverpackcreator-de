@@ -1,3 +1,9 @@
+## [1.3.1](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.3.0...1.3.1) (2026-10-11)
+
+### 🦊 CI/CD
+
+* Update installed packages in Docker container. ([190fe1c](https://git.griefed.de/Griefed/serverpackcreator-de/commit/190fe1c0a8425393c18d359ec94927c08ccff70d))
+
 ## [1.3.0](https://git.griefed.de/Griefed/serverpackcreator-de/compare/1.2.0...1.3.0) (2026-10-10)
 
 ### 🦊 CI/CD
