@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 RUN quasar build
 
-FROM ghcr.io/linuxserver/nginx:1.22.1
+FROM ghcr.io/linuxserver/nginx:1.30.4@sha256:3486bc71c5983edc9e7c80713b5d762f317c4c77fb31842a40a1ce26cce9f1de
 
 LABEL maintainer="Griefed <griefed@griefed.de>"
 
