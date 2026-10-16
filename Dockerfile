@@ -1,4 +1,4 @@
-FROM griefed/gitlab-ci-cd:2.8.0 AS builder
+FROM griefed/gitlab-ci-cd:2.8.0@sha256:1461ae150d5803774398cc89af820c5e4b4cca92ebd74e8a17171e386de7b56d AS builder
 
 WORKDIR /tmp/serverpackcreator.de
 
@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 RUN quasar build
 
-FROM ghcr.io/linuxserver/nginx:1.22.1
+FROM ghcr.io/linuxserver/nginx:1.22.1@sha256:0387f16fbf29d67fb752ecf756093fb135bd697fd12d5957afdf4396624b9da0
 
 LABEL maintainer="Griefed <griefed@griefed.de>"
 
